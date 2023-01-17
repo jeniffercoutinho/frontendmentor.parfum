@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,900&family=Montserrat:wght@500;700&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+.container {
+	max-width: 660px;
+    max-height: 500px;
+	margin: auto;
+	display: flex;
+	background-color:hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.stretch {
+	align-items: stretch;
+}
+
+.item {
+	flex: 1;
+	text-align: center; 
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding: 15px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.parfum {
+    font-family: 'Fraunces', serif;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+    margin-left: 10px;
+    color:  hsl(212, 21%, 14%);
+    line-height: 35px;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding: 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: hsl(228, 12%, 48%);
+    line-height: 30px;
+    
+
+}
+
+.image {
+    height: 500px;
+
+}
+
+.containerone {
+    background-color: blue;
+    border-radius: 0 15px 0 0;
+}
+
+.column {
+	min-height: 200px;
+	flex-direction: column;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.containervalue {
+    margin: auto;
+	display: flex;
+}
+
+.atual {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    color:hsl(158, 36%, 37%);
+    margin: auto;
+    padding-left: 20px;
+    font-weight: bold;
+
+}
+
+.old {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    margin: auto;
+    display: flex;
+    padding-left: 10px;
+    
+}
+
+.cart {
+    background-color:hsl(158, 36%, 37%);
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    margin: 30px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-style: bold;
+    justify-content: flex-start;
+    
+}
+
+.itemimg {
+    width: 20px;
+    height: 16px;
+
+}
+
+.attribution {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 11px; 
+    text-align: center; 
+    padding-top: 5px;
+    
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
